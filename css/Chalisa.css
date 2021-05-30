@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-image: url(../img/header.jpg);
+    height: 100%;
+}
+
+.Hanumanji {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 44vw;
+    width: 666px;
+    height: 375px;
+}
+
+.AniHanumanji {
+    animation: AniHanumanji 5s linear infinite;
+}
+
+@keyframes AniHanumanji {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 100%;
+    }
+}
